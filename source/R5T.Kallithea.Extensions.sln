@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Kallithea.Extensions.Construction", "R5T.Kallithea.Extensions.Construction\R5T.Kallithea.Extensions.Construction.csproj", "{D63AA970-424D-4E0D-B694-3E8AA1B91A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Kallithea.Extensions.Construction", "R5T.Kallithea.Extensions.Construction\R5T.Kallithea.Extensions.Construction.csproj", "{D63AA970-424D-4E0D-B694-3E8AA1B91A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Kallithea.Extensions", "R5T.Kallithea.Extensions\R5T.Kallithea.Extensions.csproj", "{97B7B359-9DEF-4451-8D7A-3B6274F3E4BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Kallithea.Extensions", "R5T.Kallithea.Extensions\R5T.Kallithea.Extensions.csproj", "{97B7B359-9DEF-4451-8D7A-3B6274F3E4BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Kallithea.Extensions.Testing", "R5T.Kallithea.Extensions.Testing\R5T.Kallithea.Extensions.Testing.csproj", "{D3613A43-95FD-4DC3-9C08-E783DAA64A67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Kallithea.Extensions.Testing", "R5T.Kallithea.Extensions.Testing\R5T.Kallithea.Extensions.Testing.csproj", "{D3613A43-95FD-4DC3-9C08-E783DAA64A67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{66A39918-EC81-47AA-9C9C-E6EBE8917C6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Kallithea.Abstractions", "..\..\R5T.Kallithea.Abstractions\source\R5T.Kallithea.Abstractions\R5T.Kallithea.Abstractions.csproj", "{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D63AA970-424D-4E0D-B694-3E8AA1B91A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{D3613A43-95FD-4DC3-9C08-E783DAA64A67}.Release|x64.Build.0 = Release|Any CPU
 		{D3613A43-95FD-4DC3-9C08-E783DAA64A67}.Release|x86.ActiveCfg = Release|Any CPU
 		{D3613A43-95FD-4DC3-9C08-E783DAA64A67}.Release|x86.Build.0 = Release|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Debug|x64.Build.0 = Debug|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Debug|x86.Build.0 = Debug|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Release|x64.ActiveCfg = Release|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Release|x64.Build.0 = Release|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Release|x86.ActiveCfg = Release|Any CPU
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C851F1D1-CBC5-4118-B14A-42DAC2A3C284} = {66A39918-EC81-47AA-9C9C-E6EBE8917C6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6403BB3-744D-402E-AA2D-DB6CD28581F9}
 	EndGlobalSection
 EndGlobal
